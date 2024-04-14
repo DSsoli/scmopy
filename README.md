@@ -1,7 +1,7 @@
 # **scmopy**: Distribution-Agnostic Structural Causal Models Optimization in Python
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/DSsoli/scmopy/blob/main/LICENSE)
-[![PyPI - Version](https://img.shields.io/pypi/v/scmopy)](https://pypi.org/project/scmopy/)
+[![PyPI - Version](https://img.shields.io/pypi/v/scmopy.svg)](https://pypi.org/project/scmopy/)
 
 scmopy is a composite package for causal discovery/analysis using several **novel** types of Structural Causal Models Optimization algorithms.
 <br>
