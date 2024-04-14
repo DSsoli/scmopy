@@ -524,10 +524,10 @@ Reference and detailed documentation for the ESA-2SCM algorithm:
 * Lee, Sanghoon (2024). **ESA-2SCM for Causal Discovery: Causal Modeling with Elastic Segmentation-based Synthetic Instrumental Variable**, *SnB Political and Economic Research Institute,* *1,* 21. <snbperi.org/article/230> [[ARTICLE LINK]](http://www.snbperi.org/article/230)
 
 ## Examples
-Examples of running ESA-2SCM in Jupyter Notebook are included in [esa_2scm/examples](https://github.com/DSsoli/esa-2scm/tree/main/examples)
+Examples of running scmopy in Jupyter Notebook are included in [scmopy/examples](https://github.com/DSsoli/scmopy/tree/main/examples)
 
 ## License
-scmopy package is licensed under the terms of the [MIT license](https://github.com/DSsoli/esa-2scm/blob/main/LICENSE)
+scmopy package is licensed under the terms of the [MIT license](https://github.com/DSsoli/scmopy/blob/main/LICENSE)
 
 ## References
 
