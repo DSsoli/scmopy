@@ -10,3 +10,5 @@ Should you use the scmopy package, please cite the following articles.
 - S.Shimizu and Y.Kano (2008). Use of non-normality in structural equation modeling: Application to direction of causation, Journal of Statistical Planning and Inference, 138, 11, 3483-3491.
 
 """
+
+__version__ = '0.0.3'
