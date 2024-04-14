@@ -3,6 +3,7 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/DSsoli/scmopy/blob/main/LICENSE)
 [![PyPI version](https://badge.fury.io/py/scmopy.svg)](https://pypi.org/project/scmopy/)
 [![PyPI version](https://img.shields.io/pypi/v/scmopy.svg?kill_cache=1)](https://pypi.org/project/scmopy/)
+<a href="https://pypi.org/project/scmopy/"><img src="https://img.shields.io/pypi/v/scmopy.svg?kill_cache=12" alt="PyPI version"></a>
 
 
 scmopy is a composite package for causal discovery/analysis using several **novel** types of Structural Causal Models Optimization algorithms.
