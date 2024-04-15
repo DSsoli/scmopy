@@ -11,4 +11,4 @@ Should you use the scmopy package, please cite the following articles.
 
 """
 
-__version__ = '0.1.2'
+__version__ = '0.1.3'
