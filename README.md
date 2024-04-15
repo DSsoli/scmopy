@@ -357,7 +357,7 @@ and,
   <img src="https://github.com/DSsoli/scmopy/blob/main/img/26.png?raw=true" width="300"/>
 </p>
 
-to get the isolated quantity from the fourth order moment ($E(z^4)$), especially the parts that are independent from the lower order moments, leaving a quantity that captures the "pure" fourth-order behavior of the distribution,
+to get the isolated quantity from the fourth order moment ( $E(z^4)$ ), especially the parts that are independent from the lower order moments, leaving a quantity that captures the "pure" fourth-order behavior of the distribution,
 
 if (1) $0< |r| < 1$ and (2) either $E(x_2^3), E(e_1^3), cum_4(x_2)$, or $cum_4(e_1)$ is non-zero, the following holds:
 
