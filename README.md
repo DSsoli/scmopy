@@ -401,7 +401,7 @@ should hold. Solving for the matrix,
 
 Similar derivation process can be applied for the fourth-order moment.
 
-Thus, the two models $(1)$ and $(2)$ are distinguishable from each other using either third- and/or fourth-order moments, with each order moment structure (e.g., for model $(1)$) defined respectively as:
+Thus, the two models $(1)$ and $(2)$ are distinguishable from each other using either third- and/or fourth-order moments, with each order moment structure ( e.g., for model $(1)$ ) defined respectively as:
 
 <p align="center">
   <img src="https://github.com/DSsoli/scmopy/blob/main/img/34.png?raw=true" width="500"/>
