@@ -296,7 +296,7 @@ class GradientNonGaussianScm(BaseCM):
             self._true_p_value = self._p_value if self._causal_dir == 'x2->x1' else self._p_value_rev if self._causal_dir == 'x1->x2' else 'undetermined'
             
             self._score = round(r2_score(self._x1, self._b12 * self._x2), 5) if self._causal_dir == 'x2->x1' \
-                else round(r2_score(self._x1_rev, self._b21 * self._x2_rev), 5) if self._causal_dir == 'x2->x1' else 'undetermined'
+                else round(r2_score(self._x1_rev, self._b21 * self._x2_rev), 5) if self._causal_dir == 'x1->x2' else 'undetermined'
                 
         return self
 
