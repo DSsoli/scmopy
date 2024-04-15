@@ -7,7 +7,7 @@
 scmopy is a composite package for causal discovery/analysis using several **novel** types of Structural Causal Models Optimization algorithms.
 <br>
 
-scmopy provides **Distribution-Agnostic** methods in identifying causality, which enables deviations from the necessity of satisfying any specific distributional assumptions during the whole process of causal modeling.
+scmopy provides **Distribution-Agnostic** methods in identifying causality; in other words, users can deviate from the necessity of satisfying any specific distributional assumptions as regards to the dataset, and as regards to the whole process of causal estimation to hypothesis-testing.
 <br>
 
 The package is mainly structured in three parts:
