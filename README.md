@@ -345,7 +345,7 @@ Now, expanding up to third and fourth order moment structures, S.Shimizu and Y.K
 models $(1)$ and $(2)$ can be differentiated. 
 
 That is to say, <br>
-with $ r = corr(x_1,x_2) $, and $i$-th order moment structure defined as:
+with $r = corr(x_1,x_2)$, and $i$-th order moment structure defined as:
 
 <p align="center">
   <img src="https://github.com/DSsoli/scmopy/blob/main/img/25.png?raw=true" width="190"/>
