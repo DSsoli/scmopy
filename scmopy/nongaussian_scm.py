@@ -306,7 +306,6 @@ class GradientNonGaussianScm(BaseCM):
         summary_idx = ['Causal Direction', "Causal Coefficient",  'Test Statistic', 'P-value', "Reject H0", "Goodness of Fit"]
         
         if self._prior_knowledge is not None:
-            #self._result = pd.DataFrame({summary_idx[0] + ' (FIXED)': [self._prior_knowledge], summary_idx[-1]: [self._b]}, index=['Estimation'])
             self._result = pd.DataFrame({self._prior_knowledge + " (Predetermined)": [self._prior_knowledge, self._b, self._score]}, index=[summary_idx[0], summary_idx[1], summary_idx[-1]])
             
         else:

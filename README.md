@@ -14,14 +14,14 @@ The package is mainly structured in three parts:
 
 1. **ESA-2SCM (Elastic Segment Allocation-based Two-Stage Least Squares SCM)**
 - ESA-2SCM is a new method for detecting causality based on the Elastic Segment Allocation-based synthetic instrumental variables with 2SLS application for estimating structural causal models. 
-- For details and documentation, please refer to my Original Article: <br>
+- For details and documentation, please refer to my original article: <br>
 - [Lee, Sanghoon (2024). **ESA-2SCM for Causal Discovery: Causal Modeling with Elastic Segmentation-based Synthetic Instrumental Variable**, *SnB Political and Economic Research Institute,* *1,* 21. <snbperi.org/article/230>](http://www.snbperi.org/article/230)
 <br><br>
 
 2. **Gradient Non-Gaussian SCM**
 - Gradient Non-Gaussian SCM incorporates the information of higher order moment structures assuming non-gaussianity to determine the true causal direction.
 - Gradient Non-Gaussian SCM is a customized implementation of S.Shimizu and Y.Kano's conceptualization of nnSEM. Specifically, the quadratic objective function based on the difference between the sample moments and theoretical moments is optimized via gradient method (defaulting to BFGS) instead of performing GLS.
-- For details regarding the original nnSEM, please refer to:
+- For details regarding the concepts of the original nnSEM, please refer to:
 - S.Shimizu and Y.Kano (2008). **Use of non-normality in structural equation modeling: Application to direction of causation**, *Journal of Statistical Planning and Inference,* *138*, *11*, 3483-3491.
 <br><br>
 
@@ -85,7 +85,6 @@ print(scm.causal_coef)
 # To confirm the test statistic (T2) and p-value for hypothesis testing on the Causal Direction
 print(scm.test_statistic)
 print(scm.p_value)
-
 
 # To confirm the fit score
 print(scm.score)
@@ -533,7 +532,7 @@ scmopy package is licensed under the terms of the [MIT license](https://github.c
 
 ### scmopy Package
 
-Should you use the scmopy package to perform causal discovery, please kindly cite my original article and the original article by S.Shimizu and Y.Kano:
+Should you use the scmopy package to perform causal discovery, please cite my original article and the original article by S.Shimizu and Y.Kano:
 
 * Lee, Sanghoon (2024). **ESA-2SCM for Causal Discovery: Causal Modeling with Elastic Segmentation-based Synthetic Instrumental Variable**, *SnB Political and Economic Research Institute,* *1,* 21. <snbperi.org/article/230> [[ARTICLE LINK]](http://www.snbperi.org/article/230)
 

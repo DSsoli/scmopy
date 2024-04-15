@@ -122,8 +122,6 @@ class ScmSelector(BaseCM):
         
         self._selected_scm = Esa2Scm(self._x1, self._x2, self._prior_knowledge) if self._test_result == 'gaussian' else GradientNonGaussianScm(self._x1, self._x2, self._prior_knowledge)
         
-        # print(f"{self._selected_scm.__class__.__name__}(x1={self._x1}, x2={self._x2}, prior_knowledge={self._prior_knowledge})")
-        
         return self
     
 
