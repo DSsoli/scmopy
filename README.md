@@ -7,7 +7,7 @@
 scmopy is a composite package for causal discovery/analysis using several **novel** types of Structural Causal Models Optimization algorithms.
 <br>
 
-scmopy provides **Distribution-Agnostic** methods in identifying causality; in other words, distributional assumptions in typical SCM/SEM such as satisfying the normality conditions are *not* required.
+scmopy provides **Distribution-Agnostic** methods in identifying causality, which enables deviations from the necessity of satisfying any specific distributional assumptions during the whole process of causal modeling.
 <br>
 
 The package is mainly structured in three parts:
@@ -268,7 +268,7 @@ and with $\tau$ estimation rewritten as:
   <img src="https://github.com/DSsoli/scmopy/blob/main/img/12.png?raw=true" width="400"/>
 </p>
 
-Assuming unit variance $(I)$ and single parameter/moment ($\tau$, $\sigma(\tau)$) for simplification:
+Assuming unit variance $(I)$ and single parameter/moment ( $\tau$, $\sigma(\tau)$ ) for simplification:
 
 <p align="center">
   <img src="https://github.com/DSsoli/scmopy/blob/main/img/13.png?raw=true" width="400"/>
