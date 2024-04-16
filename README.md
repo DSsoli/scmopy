@@ -1,6 +1,6 @@
 # **scmopy**: Distribution-Agnostic Structural Causal Models Optimization in Python
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/DSsoli/scmopy/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/DSsoli/scmopy/blob/main/LICENSE)
 [![PyPI - Version](https://img.shields.io/pypi/v/scmopy.svg)](https://pypi.org/project/scmopy/)
 
 
@@ -525,15 +525,29 @@ Reference and detailed documentation for the ESA-2SCM algorithm:
 ## Examples
 Examples of running scmopy in Jupyter Notebook are included in [scmopy/examples](https://github.com/DSsoli/scmopy/tree/main/examples)
 
-## License
-scmopy package is licensed under the terms of the [MIT license](https://github.com/DSsoli/scmopy/blob/main/LICENSE)
-
 ## References
-
-### scmopy Package
-
-Should you use the scmopy package to perform causal discovery, please cite my original article and the original article by S.Shimizu and Y.Kano:
+Should you use the scmopy package, please cite my original article and the original article by S.Shimizu and Y.Kano:
 
 * Lee, Sanghoon (2024). **ESA-2SCM for Causal Discovery: Causal Modeling with Elastic Segmentation-based Synthetic Instrumental Variable**, *SnB Political and Economic Research Institute,* *1,* 21. <snbperi.org/article/230> [[ARTICLE LINK]](http://www.snbperi.org/article/230)
 
 * S.Shimizu and Y.Kano (2008). **Use of non-normality in structural equation modeling: Application to direction of causation**, *Journal of Statistical Planning and Inference,* *138*, *11*, 3483-3491.
+
+## License
+```xml
+Copyright 2024 Sanghoon Lee (DSsoli). All Rights Reserved.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
+
+
+[Apache License 2.0](https://github.com/DSsoli/scmopy/blob/main/LICENSE)
